@@ -1,18 +1,18 @@
-#pragma once
+ï»¿#pragma once
 #include "libraries.h"
 
 void chooseinstr()
 {
-	std::cout << "Ââåäèòå 1 ÷òîáû èçìåíèòü ıëåìåíò â ìàññèâå" << std::endl;
-	std::cout << "Ââåäèòå 2 ÷òîáû îòñîğòèğîâàòü ìàññèâ" << std::endl;
-	std::cout << "Ââåäèòå 3 ÷òîáû âûâåñòè ìàññèâ íà ıêğàí" << std::endl;
-	std::cout << "Ââåäèòå 4 ÷òîáû ïåğåìåøàòü ìàññèâ" << std::endl;
-	std::cout << "Ââåäèòå 5 ÷òîáû íàéòè â ìàññèâå" << std::endl;
-	std::cout << "Ââåäèòå 6 ÷òîáû ğåâåğñíóòü ìàññèâ" << std::endl;
-	std::cout << "Ââåäèòå ëşáîå äğóãîå ÷èñëî ÷òîáû âûéòè" << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ 1 Ñ‡Ñ‚Ğ¾Ğ±Ñ‹ Ğ¸Ğ·Ğ¼ĞµĞ½Ğ¸Ñ‚ÑŒ ÑĞ»ĞµĞ¼ĞµĞ½Ñ‚ Ğ² Ğ¼Ğ°ÑÑĞ¸Ğ²Ğµ" << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ 2 Ñ‡Ñ‚Ğ¾Ğ±Ñ‹ Ğ¾Ñ‚ÑĞ¾Ñ€Ñ‚Ğ¸Ñ€Ğ¾Ğ²Ğ°Ñ‚ÑŒ Ğ¼Ğ°ÑÑĞ¸Ğ²" << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ 3 Ñ‡Ñ‚Ğ¾Ğ±Ñ‹ Ğ²Ñ‹Ğ²ĞµÑÑ‚Ğ¸ Ğ¼Ğ°ÑÑĞ¸Ğ² Ğ½Ğ° ÑĞºÑ€Ğ°Ğ½" << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ 4 Ñ‡Ñ‚Ğ¾Ğ±Ñ‹ Ğ¿ĞµÑ€ĞµĞ¼ĞµÑˆĞ°Ñ‚ÑŒ Ğ¼Ğ°ÑÑĞ¸Ğ²" << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ 5 Ñ‡Ñ‚Ğ¾Ğ±Ñ‹ Ğ½Ğ°Ğ¹Ñ‚Ğ¸ Ğ² Ğ¼Ğ°ÑÑĞ¸Ğ²Ğµ" << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ 6 Ñ‡Ñ‚Ğ¾Ğ±Ñ‹ Ñ€ĞµĞ²ĞµÑ€ÑĞ½ÑƒÑ‚ÑŒ Ğ¼Ğ°ÑÑĞ¸Ğ²" << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ»ÑĞ±Ğ¾Ğµ Ğ´Ñ€ÑƒĞ³Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ñ‡Ñ‚Ğ¾Ğ±Ñ‹ Ğ²Ñ‹Ğ¹Ñ‚Ğ¸" << std::endl;
 }
 
-//Ïğîâåğêà íà ââîä
+//ĞŸÑ€Ğ¾Ğ²ĞµÑ€ĞºĞ° Ğ½Ğ° Ğ²Ğ²Ğ¾Ğ´
 int getintValue()
 {
 	int value = 0;
@@ -26,7 +26,7 @@ int getintValue()
 			std::cin.clear();
 			std::cin.ignore(32767, '\n');
 			system("CLS");
-			std::cout << "Ââåäåíî íåâåğíîå çíà÷åíèå, ïîâğòîğèòå ââîä" << std::endl;
+			std::cout << "Ğ’Ğ²ĞµĞ´ĞµĞ½Ğ¾ Ğ½ĞµĞ²ĞµÑ€Ğ½Ğ¾Ğµ Ğ·Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ğµ, Ğ¿Ğ¾Ğ²Ñ€Ñ‚Ğ¾Ñ€Ğ¸Ñ‚Ğµ Ğ²Ğ²Ğ¾Ğ´" << std::endl;
 		}
 		else
 		{
@@ -42,13 +42,13 @@ void add_to_array(std::array<Human, ARRAY_SIZE>& arr)
 	{
 		std::string temp;
 		int temp_int;
-		std::cout << "Ââåäèòå èìÿ:" << std::endl;
+		std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¸Ğ¼Ñ:" << std::endl;
 		std::cin >> temp;
 		x.set_name(temp);
-		std::cout << "Ââåäèòå ôàìèëèş:" << std::endl;
+		std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ„Ğ°Ğ¼Ğ¸Ğ»Ğ¸Ñ:" << std::endl;
 		std::cin >> temp;
 		x.set_pathranomic(temp);
-		std::cout << "Ââåäèòå âîçğàñò:" << std::endl;
+		std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ²Ğ¾Ğ·Ñ€Ğ°ÑÑ‚:" << std::endl;
 		temp_int = getintValue();
 		x.set_age(temp_int);
 		x.set_id(addId(arr));
@@ -78,19 +78,30 @@ int addId(const std::array<Human, ARRAY_SIZE> arr)
 //Edit element 
 void chagne_element(std::array<Human, ARRAY_SIZE>& arr)
 {
-	std::cout << "Ââåäèòå íîìåğ ıëåìåíòà êîòîğûé õîòèòå èçìåíèòü" << std::endl;
-	int choose = getintValue();
-	std::string temp;
-	int temp_int;
-	std::cout << "Ââåäèòå èìÿ:" << std::endl;
-	std::cin >> temp;
-	arr[choose-1].set_name(temp);
-	std::cout << "Ââåäèòå ôàìèëèş:" << std::endl;
-	std::cin >> temp;
-	arr[choose - 1].set_pathranomic(temp);
-	std::cout << "Ââåäèòå âîçğàñò:" << std::endl;
-	temp_int = getintValue();
-	arr[choose - 1].set_age(temp_int);
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ id Ñ‡ĞµĞ»Ğ¾Ğ²ĞµĞºĞ° ĞºĞ¾Ñ‚Ğ¾Ñ€Ñ‹Ğ¹ Ñ…Ğ¾Ñ‚Ğ¸Ñ‚Ğµ Ğ¸Ğ·Ğ¼ĞµĞ½Ğ¸Ñ‚ÑŒ" << std::endl;
+	int id = getintValue();
+	system("CLS");
+	for (auto& x : arr)
+	{
+		if (x.get_id() == id)
+		{
+			std::string temp;
+			int temp_int;
+			std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¸Ğ¼Ñ:" << std::endl;
+			std::cin >> temp;
+			x.set_name(temp);
+			std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ„Ğ°Ğ¼Ğ¸Ğ»Ğ¸Ñ:" << std::endl;
+			std::cin >> temp;
+			x.set_pathranomic(temp);
+			std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ²Ğ¾Ğ·Ñ€Ğ°ÑÑ‚:" << std::endl;
+			temp_int = getintValue();
+			x.set_age(temp_int);
+			system("CLS");
+			std::cout << "Ğ”Ğ°Ğ½Ğ½Ñ‹Ğµ ÑƒÑĞ¿ĞµÑˆĞ½Ğ¾ Ğ¸Ğ·Ğ¼ĞµĞ½ĞµĞ½Ñ‹" << std::endl;
+			return;
+		}
+	}
+	std::cout << "ĞĞµ Ğ½Ğ°Ğ¹Ğ´ĞµĞ½Ğ¾ Ñ‡ĞµĞ»Ğ¾Ğ²ĞµĞºĞ° Ñ Ñ‚Ğ°ĞºĞ¸Ğ¼ id" << std::endl;
 }
 
 //Show array
@@ -103,15 +114,15 @@ void show_arr(const std::array<Human, ARRAY_SIZE> arr)
 //Sorting 
 int sort_by_choose()
 {
-	std::cout << "Ââåäèòå 1 ÷òîáû îòñîğòèğîâàòü ïî èìåíè" << std::endl;
-	std::cout << "Ââåäèòå 2 ÷òîáû îòñîğòèğîâàòü ïî ôàìèëèè" << std::endl;
-	std::cout << "Ââåäèòå 3 ÷òîáû îòñîğòèğîâàòü ïî âîçğàñòó" << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ 1 Ñ‡Ñ‚Ğ¾Ğ±Ñ‹ Ğ¾Ñ‚ÑĞ¾Ñ€Ñ‚Ğ¸Ñ€Ğ¾Ğ²Ğ°Ñ‚ÑŒ Ğ¿Ğ¾ Ğ¸Ğ¼ĞµĞ½Ğ¸" << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ 2 Ñ‡Ñ‚Ğ¾Ğ±Ñ‹ Ğ¾Ñ‚ÑĞ¾Ñ€Ñ‚Ğ¸Ñ€Ğ¾Ğ²Ğ°Ñ‚ÑŒ Ğ¿Ğ¾ Ñ„Ğ°Ğ¼Ğ¸Ğ»Ğ¸Ğ¸" << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ 3 Ñ‡Ñ‚Ğ¾Ğ±Ñ‹ Ğ¾Ñ‚ÑĞ¾Ñ€Ñ‚Ğ¸Ñ€Ğ¾Ğ²Ğ°Ñ‚ÑŒ Ğ¿Ğ¾ Ğ²Ğ¾Ğ·Ñ€Ğ°ÑÑ‚Ñƒ" << std::endl;
 	return getintValue();
 }
 int sort_type_choose()
 {
-	std::cout << "Ââåäèòå 1 ÷òîáû îòñîğòèğîâàòü ïî âîçğàñòàíèş" << std::endl;
-	std::cout << "Ââåäèòå 2 ÷òîáû îòñîğòèğîâàòü ïî óáûâàíèş" << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ 1 Ñ‡Ñ‚Ğ¾Ğ±Ñ‹ Ğ¾Ñ‚ÑĞ¾Ñ€Ñ‚Ğ¸Ñ€Ğ¾Ğ²Ğ°Ñ‚ÑŒ Ğ¿Ğ¾ ÑƒĞ±Ñ‹Ğ²Ğ°Ğ½Ğ¸Ñ" << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ 2 Ñ‡Ñ‚Ğ¾Ğ±Ñ‹ Ğ¾Ñ‚ÑĞ¾Ñ€Ñ‚Ğ¸Ñ€Ğ¾Ğ²Ğ°Ñ‚ÑŒ Ğ¿Ğ¾ Ğ²Ğ¾Ğ·Ñ€Ğ°ÑÑ‚Ğ°Ğ½Ğ¸Ñ" << std::endl;
 	return getintValue();
 }
 void sortArray(std::array<Human, ARRAY_SIZE>& arr, bool(*comparator)(Human, Human))
@@ -136,7 +147,7 @@ void sort_by_name(std::array<Human, ARRAY_SIZE>& arr)
 			});
 	}
 	else
-		std::cout << "Òàêîãî âàğèàíòà íåò" << std::endl;
+		std::cout << "Ğ¢Ğ°ĞºĞ¾Ğ³Ğ¾ Ğ²Ğ°Ñ€Ğ¸Ğ°Ğ½Ñ‚Ğ° Ğ½ĞµÑ‚" << std::endl;
 }
 void sort_by_surname(std::array<Human, ARRAY_SIZE>& arr)
 {
@@ -156,7 +167,7 @@ void sort_by_surname(std::array<Human, ARRAY_SIZE>& arr)
 			});
 	}
 	else
-		std::cout << "Òàêîãî âàğèàíòà íåò" << std::endl;
+		std::cout << "Ğ¢Ğ°ĞºĞ¾Ğ³Ğ¾ Ğ²Ğ°Ñ€Ğ¸Ğ°Ğ½Ñ‚Ğ° Ğ½ĞµÑ‚" << std::endl;
 }
 void sort_by_age(std::array<Human, ARRAY_SIZE>& arr)
 {
@@ -176,7 +187,7 @@ void sort_by_age(std::array<Human, ARRAY_SIZE>& arr)
 			});
 	}
 	else
-		std::cout << "Òàêîãî âàğèàíòà íåò" << std::endl;
+		std::cout << "Ğ¢Ğ°ĞºĞ¾Ğ³Ğ¾ Ğ²Ğ°Ñ€Ğ¸Ğ°Ğ½Ñ‚Ğ° Ğ½ĞµÑ‚" << std::endl;
 }
 void sort_arr_menu(std::array<Human, ARRAY_SIZE>& arr)
 {
@@ -187,22 +198,22 @@ void sort_arr_menu(std::array<Human, ARRAY_SIZE>& arr)
 		system("CLS");
 		sort_by_name(arr);
 		system("CLS");
-		std::cout << "Óñïåøíî îòñîğòèğîâàíî" << std::endl;
+		std::cout << "Ğ£ÑĞ¿ĞµÑˆĞ½Ğ¾ Ğ¾Ñ‚ÑĞ¾Ñ€Ñ‚Ğ¸Ñ€Ğ¾Ğ²Ğ°Ğ½Ğ¾" << std::endl;
 		break;
 	case 2:
 		system("CLS");
 		sort_by_surname(arr);
 		system("CLS");
-		std::cout << "Óñïåøíî îòñîğòèğîâàíî" << std::endl;
+		std::cout << "Ğ£ÑĞ¿ĞµÑˆĞ½Ğ¾ Ğ¾Ñ‚ÑĞ¾Ñ€Ñ‚Ğ¸Ñ€Ğ¾Ğ²Ğ°Ğ½Ğ¾" << std::endl;
 		break;
 	case 3:
 		system("CLS");
 		sort_by_age(arr);
 		system("CLS");
-		std::cout << "Óñïåøíî îòñîğòèğîâàíî" << std::endl;
+		std::cout << "Ğ£ÑĞ¿ĞµÑˆĞ½Ğ¾ Ğ¾Ñ‚ÑĞ¾Ñ€Ñ‚Ğ¸Ñ€Ğ¾Ğ²Ğ°Ğ½Ğ¾" << std::endl;
 		break;
 	default:
-		std::cout << "Òàêîãî âàğèàíòà íåò" << std::endl;
+		std::cout << "Ğ¢Ğ°ĞºĞ¾Ğ³Ğ¾ Ğ²Ğ°Ñ€Ğ¸Ğ°Ğ½Ñ‚Ğ° Ğ½ĞµÑ‚" << std::endl;
 		break;
 	}
 } 
@@ -212,23 +223,25 @@ void shuffle_array(std::array<Human, ARRAY_SIZE>& arr)
 {
 	std::mt19937 rd;
 	std::shuffle(arr.begin(), arr.end(), std::default_random_engine(rd));
+	std::cout << "ĞœĞ°ÑÑĞ¸Ğ² ÑƒÑĞ¿ĞµÑˆĞ½Ğ¾ Ğ¿ĞµÑ€ĞµĞ¼ĞµÑˆĞ°Ğ½" << std::endl;
 }
 
 
 //Find
-int find_choose()
+int shadow_fiend_choose()
 {
-	std::cout << "Ââåäèòå 1 ÷òîáû íàéòè ïî èìåíè" << std::endl;
-	std::cout << "Ââåäèòå 2 ÷òîáû íàéòè ïî ôàìèëèè" << std::endl;
-	std::cout << "Ââåäèòå 3 ÷òîáû íàéòè ïî âîçğàñòó" << std::endl;
-	std::cout << "Ââåäèòå 4 ÷òîáû íàéòè ïî id" << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ 1 Ñ‡Ñ‚Ğ¾Ğ±Ñ‹ Ğ½Ğ°Ğ¹Ñ‚Ğ¸ Ğ¿Ğ¾ Ğ¸Ğ¼ĞµĞ½Ğ¸" << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ 2 Ñ‡Ñ‚Ğ¾Ğ±Ñ‹ Ğ½Ğ°Ğ¹Ñ‚Ğ¸ Ğ¿Ğ¾ Ñ„Ğ°Ğ¼Ğ¸Ğ»Ğ¸Ğ¸" << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ 3 Ñ‡Ñ‚Ğ¾Ğ±Ñ‹ Ğ½Ğ°Ğ¹Ñ‚Ğ¸ Ğ¿Ğ¾ Ğ²Ğ¾Ğ·Ñ€Ğ°ÑÑ‚Ñƒ" << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ 4 Ñ‡Ñ‚Ğ¾Ğ±Ñ‹ Ğ½Ğ°Ğ¹Ñ‚Ğ¸ Ğ¿Ğ¾ id" << std::endl;
 	return getintValue();
 }
-void find_by_name(const std::array<Human, ARRAY_SIZE> arr)
+void shadow_fiend_by_name(const std::array<Human, ARRAY_SIZE> arr)
 {
-	std::cout << "Ââåäèòå èìÿ ïî êîòîğîìó õîòèòå íàéòè:" << std::endl;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¸Ğ¼Ñ Ğ¿Ğ¾ ĞºĞ¾Ñ‚Ğ¾Ñ€Ğ¾Ğ¼Ñƒ Ñ…Ğ¾Ñ‚Ğ¸Ñ‚Ğµ Ğ½Ğ°Ğ¹Ñ‚Ğ¸:" << std::endl;
 	std::string name;
 	std::cin >> name;
+	system("CLS");
 	auto start = arr.begin();
 	while (start != arr.end())
 	{
@@ -238,7 +251,7 @@ void find_by_name(const std::array<Human, ARRAY_SIZE> arr)
 			});
 		if (result == arr.end())
 		{
-			std::cout << "Òàêîãî èìåíè íå íàéäåíî" << std::endl;
+			std::cout << "Ğ¢Ğ°ĞºĞ¾Ğ³Ğ¾ Ğ¸Ğ¼ĞµĞ½Ğ¸ Ğ½Ğµ Ğ½Ğ°Ğ¹Ğ´ĞµĞ½Ğ¾" << std::endl;
 			return;
 		}
 		else
@@ -248,21 +261,22 @@ void find_by_name(const std::array<Human, ARRAY_SIZE> arr)
 		}
 	}
 }
-void find_by_surname(const std::array<Human, ARRAY_SIZE> arr)
+void shadow_fiend_by_surname(const std::array<Human, ARRAY_SIZE> arr)
 {
-	std::cout << "Ââåäèòå ôàìèëèş ïî êîòîğîé õîòèòå íàéòè:" << std::endl;
-	std::string name;
-	std::cin >> name;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ„Ğ°Ğ¼Ğ¸Ğ»Ğ¸Ñ Ğ¿Ğ¾ ĞºĞ¾Ñ‚Ğ¾Ñ€Ğ¾Ğ¹ Ñ…Ğ¾Ñ‚Ğ¸Ñ‚Ğµ Ğ½Ğ°Ğ¹Ñ‚Ğ¸:" << std::endl;
+	std::string temp;
+	std::cin >> temp;
+	system("CLS");
 	auto start = arr.begin();
 	while (start != arr.end())
 	{
 		auto result = std::find_if(start, arr.end(), [=](Human hum)
 			{
-				return hum.get_name() == name;
+				return hum.get_pathranomic() == temp;
 			});
 		if (result == arr.end())
 		{
-			std::cout << "Òàêîé ôàìèëèè íå íàéäåíî" << std::endl;
+			std::cout << "Ğ¢Ğ°ĞºĞ¾Ğ¹ Ñ„Ğ°Ğ¼Ğ¸Ğ»Ğ¸Ğ¸ Ğ½Ğµ Ğ½Ğ°Ğ¹Ğ´ĞµĞ½Ğ¾" << std::endl;
 			return;
 		}
 		else
@@ -272,21 +286,22 @@ void find_by_surname(const std::array<Human, ARRAY_SIZE> arr)
 		}
 	}
 }
-void find_by_age(const std::array<Human, ARRAY_SIZE> arr)
+void shadow_fiend_by_age(const std::array<Human, ARRAY_SIZE> arr)
 {
-	std::cout << "Ââåäèòå âîçğàñò ïî êîòîğîìó õîòèòå íàéòè:" << std::endl;
-	std::string name;
-	std::cin >> name;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ²Ğ¾Ğ·Ñ€Ğ°ÑÑ‚ Ğ¿Ğ¾ ĞºĞ¾Ñ‚Ğ¾Ñ€Ğ¾Ğ¼Ñƒ Ñ…Ğ¾Ñ‚Ğ¸Ñ‚Ğµ Ğ½Ğ°Ğ¹Ñ‚Ğ¸:" << std::endl;
+	int age;
+	age = getintValue();
+	system("CLS");
 	auto start = arr.begin();
 	while (start != arr.end())
 	{
 		auto result = std::find_if(start, arr.end(), [=](Human hum)
 			{
-				return hum.get_name() == name;
+				return hum.get_age() == age;
 			});
 		if (result == arr.end())
 		{
-			std::cout << "Òàêîãî âîçğàñòà íå íàéäåíî" << std::endl;
+			std::cout << "Ğ¢Ğ°ĞºĞ¾Ğ³Ğ¾ Ğ²Ğ¾Ğ·Ñ€Ğ°ÑÑ‚Ğ° Ğ½Ğµ Ğ½Ğ°Ğ¹Ğ´ĞµĞ½Ğ¾" << std::endl;
 			return;
 		}
 		else
@@ -296,21 +311,22 @@ void find_by_age(const std::array<Human, ARRAY_SIZE> arr)
 		}
 	}
 }
-void find_by_id(const std::array<Human, ARRAY_SIZE> arr)
+void shadow_fiend_by_id(const std::array<Human, ARRAY_SIZE> arr)
 {
-	std::cout << "Ââåäèòå id ïî êîòîğîìó õîòèòå íàéòè:" << std::endl;
-	std::string name;
-	std::cin >> name;
+	std::cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ id Ğ¿Ğ¾ ĞºĞ¾Ñ‚Ğ¾Ñ€Ğ¾Ğ¼Ñƒ Ñ…Ğ¾Ñ‚Ğ¸Ñ‚Ğµ Ğ½Ğ°Ğ¹Ñ‚Ğ¸:" << std::endl;
+	int id;
+	id = getintValue();
+	system("CLS");
 	auto start = arr.begin();
 	while (start != arr.end())
 	{
 		auto result = std::find_if(start, arr.end(), [=](Human hum)
 			{
-				return hum.get_name() == name;
+				return hum.get_id() == id;
 			});
 		if (result == arr.end())
 		{
-			std::cout << "Òàêîãî id íå íàéäåíî" << std::endl;
+			std::cout << "Ğ¢Ğ°ĞºĞ¾Ğ³Ğ¾ id Ğ½Ğµ Ğ½Ğ°Ğ¹Ğ´ĞµĞ½Ğ¾" << std::endl;
 			return;
 		}
 		else
@@ -320,30 +336,30 @@ void find_by_id(const std::array<Human, ARRAY_SIZE> arr)
 		}
 	}
 }
-void find_in_array(const std::array<Human, ARRAY_SIZE> arr)
+void shadow_fiend_in_array(const std::array<Human, ARRAY_SIZE> arr)
 {
-	int choose = find_choose();
+	int choose = shadow_fiend_choose();
 	switch (choose)
 	{
 	case 1:
 		system("CLS");
-		find_by_name(arr);
+		shadow_fiend_by_name(arr);
 		break;
 	case 2:
 		system("CLS");
-		find_by_surname(arr);
+		shadow_fiend_by_surname(arr);
 		break;
 	case 3:
 		system("CLS");
-		find_by_age(arr);
+		shadow_fiend_by_age(arr);
 		break;
 	case 4:
 		system("CLS");
-		find_by_id(arr);
+		shadow_fiend_by_id(arr);
 		break;
 	default:
 		system("CLS");
-		std::cout << "Òàêîãî âàğèàíòà íåò" << std::endl;
+		std::cout << "Ğ¢Ğ°ĞºĞ¾Ğ³Ğ¾ Ğ²Ğ°Ñ€Ğ¸Ğ°Ğ½Ñ‚Ğ° Ğ½ĞµÑ‚" << std::endl;
 		break;
 	}
 }
@@ -352,6 +368,7 @@ void find_in_array(const std::array<Human, ARRAY_SIZE> arr)
 void reverse_array(std::array<Human, ARRAY_SIZE> &arr)
 {
 	std::reverse(arr.begin(), arr.end());
+	std::cout <<"ĞœĞ°ÑÑĞ¸Ğ² ÑƒÑĞ¿ĞµÑˆĞ½Ğ¾ Ñ€ĞµĞ²ĞµÑ€ÑĞ½ÑƒÑ‚" << std::endl;
 }
 
 void perfomance(std::array<Human, ARRAY_SIZE> &arr)
@@ -380,15 +397,22 @@ void perfomance(std::array<Human, ARRAY_SIZE> &arr)
 			break;
 		case 5:
 			system("CLS");
-			find_in_array(arr);
+			shadow_fiend_in_array(arr);
 			break;
 		case 6:
 			system("CLS");
 			reverse_array(arr);
 			break;
+		case 7:
+			system("CLS");
+			break;
 		default:
+			system("CLS");
 			return;
 			break;
 		}
 	}
 }
+
+
+
